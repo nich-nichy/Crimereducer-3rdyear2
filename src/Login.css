@@ -1,0 +1,58 @@
+.login {
+  background-color: #374151;
+  margin-top: -30px;
+  padding: 100px;
+  border: 100px;
+  border-bottom: 5rem;
+}
+.inp-sec {
+  position: relative;
+}
+.inp-sec .icla {
+  position: absolute;
+  left: 190px;
+  top: 10px;
+  margin-top: -4px;
+  color: #b3b3b3;
+}
+.icla {
+  height: 100px;
+  width: 10px;
+  margin-top: 50px;
+}
+.instea {
+  font-size: 15px;
+  border: 1px solid #aaaa;
+  padding: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 100px;
+  color: #dc2626;
+  margin-right: -56px;
+  margin-left: 10px;
+  margin-top: 4px;
+  background-color: #f3f4f6;
+}
+.instea:hover {
+  background-color: #dc2626;
+  color: white;
+}
+.fontawe {
+  margin-right: -10px;
+}
+.errorMsg {
+  color: rgb(255, 121, 121);
+  font-size: 16px;
+}
+.logpara {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+.googe {
+  margin-right : 470px;
+  margin-left: 470px;
+  margin-top: -5px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

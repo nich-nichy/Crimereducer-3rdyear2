@@ -1,0 +1,147 @@
+.chatim {
+  box-shadow: 5px 8px 15px 2px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.sticky {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 30px;
+  height: 160px;
+  width: 100px;
+}
+.image {
+  border: none;
+  box-shadow: none;
+  display: flex;
+  width: 600px;
+  height: 368px;
+  margin-top: -50px;
+  margin-left: 600px;
+  margin-top: -340px;
+  /* margin-bottom: -50px; */
+}
+.image2 {
+  border: none;
+  box-shadow: none;
+  display: absolute;
+  width: 680px;
+  height: 420px;
+  padding-left: 100px;
+  padding-top: 80px;
+}
+.compbtn {
+  margin-top: 50px;
+  margin-left: 475px;
+  padding: 10px;
+}
+.paraunref {
+  margin-left: 800px;
+  padding-bottom: -1000px;
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+  z-index: 2;
+}
+.list {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.chatpar {
+  margin-top: -60px;
+  margin-bottom: 15px;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 5px 6px 10px 2px;
+  /* animation: mymove 5s infinite;
+    animation-delay: 2s; */
+}
+.hider {
+  color: white;
+  background-color: white;
+  padding-left: 50px;
+  padding-top: 20px;
+  margin-top: -40px;
+  position: absolute;
+}
+
+/* @keyframes mymove {
+    from {
+      margin-top: -60px;
+    }
+    to {
+      margin-top: 50px;
+    }
+  } */
+.carousel-open:checked + .carousel-item {
+  position: static;
+  opacity: 100;
+}
+.carousel-item {
+  -webkit-transition: opacity 0.6s ease-out;
+  transition: opacity 0.6s ease-out;
+}
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+  display: block;
+}
+.carousel-indicators {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 10;
+}
+#carousel-1:checked
+  ~ .control-1
+  ~ .carousel-indicators
+  li:nth-child(1)
+  .carousel-bullet,
+#carousel-2:checked
+  ~ .control-2
+  ~ .carousel-indicators
+  li:nth-child(2)
+  .carousel-bullet,
+#carousel-3:checked
+  ~ .control-3
+  ~ .carousel-indicators
+  li:nth-child(3)
+  .carousel-bullet {
+  color: #ffb317;
+}
+
+#hide {
+  -moz-animation: cssAnimation 0s ease-in 20s forwards;
+  -webkit-animation: cssAnimation 0s ease-in 20s forwards;
+  -o-animation: cssAnimation 0s ease-in 20s forwards;
+  animation: cssAnimation 0s ease-in 20s forwards;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+  to {
+    width: 0;
+    height: 0;
+    margin-left: 150px;
+    overflow: hidden;
+  }
+}
+@-webkit-keyframes cssAnimation {
+  to {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,48 @@
+/* img,
+video {
+  box-shadow: 5px 8px 15px 2px;
+  border-radius: 50px;
+} */
+.sticky {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 20px;
+  height: 150px;
+  width: 100px;
+}
+.image {
+  border: none;
+  box-shadow: none;
+  display: flex;
+  width: 600px;
+  height: 368px;
+  margin-left: 600px;
+  margin-top: -340px;
+}
+.image2 {
+  border: none;
+  box-shadow: none;
+  display: absolute;
+  width: 680px;
+  height: 420px;
+  padding-left: 100px;
+  padding-top: 80px;
+}
+.compbtn {
+  margin-top: 50px;
+  margin-left: 475px;
+  padding: 10px;
+}
+.paraunref {
+  margin-left: 800px;
+  padding-bottom: -1000px;
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+  z-index: 2;
+}
+.list {
+  padding-left: 20px;
+  font-size: 20px;
+}

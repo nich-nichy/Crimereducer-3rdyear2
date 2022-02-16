@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.headfont {
+  font-family: "Fredoka One", cursive;
+}
+.navfont {
+  font-family: "Montserrat", sans-serif;
+}
+.navfont:hover {
+  color: white;
+}
+.fasfa {
+  /* z-index: 1; */
+  margin-left: -55px;
+  margin-right: 75px;
+}
+.fasfa:hover {
+  border: box;
+  border-style: double;
+  border-color: rgb(207, 207, 207);
+}
+.login3,
+.logout3 {
+  display: flex;
+  margin-left: 5px;
+  margin-top: -4px;
+  margin-bottom: -20px;
+}
+.user1,
+.user2 {
+  display: flex;
+}
+.wrapper-avatar {
+  display: flex;
+}
+.avatar {
+  margin-left: 30px;
+  margin-right: 10px;
+  color: rgb(237, 255, 71);
+}
+.name6 {
+  color: rgb(151, 87, 255);
+}
+.text3 {
+  margin-left: -230px;
+  margin-right: 20px;
+  padding-top: 8px;
+}
+.text5 {
+  margin-left: -250px;
+}
+/* .text4 { */
+/* margin-top: 2px; */
+/* margin-left: -270px; */
+/* margin-right: 200px; */
+/* } */

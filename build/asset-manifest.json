@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e6b013e.css",
+    "main.js": "/static/js/main.96bbe17d.js",
+    "static/js/787.a7e40f91.chunk.js": "/static/js/787.a7e40f91.chunk.js",
+    "static/media/Gokul.jpeg": "/static/media/Gokul.8b238acf5525007d0984.jpeg",
+    "static/media/3a.jpg": "/static/media/3a.0fe593e9a7ac2a55bd9f.jpg",
+    "static/media/5a.jpg": "/static/media/5a.5f32888e559385e9009e.jpg",
+    "static/media/2a.jpg": "/static/media/2a.ef59221e2c6db0af9b36.jpg",
+    "static/media/4a.jpg": "/static/media/4a.179d74c5fce54de23739.jpg",
+    "static/media/1a.jpg": "/static/media/1a.48094414665b863bbfb5.jpg",
+    "static/media/1.jpg": "/static/media/1.5e445ea7b073c252f76c.jpg",
+    "static/media/Sreenivedan.jpeg": "/static/media/Sreenivedan.1c55fa28562340125638.jpeg",
+    "static/media/Nishath4.jpg": "/static/media/Nishath4.b148080a94f3448e7e5f.jpg",
+    "static/media/kuruvi.png": "/static/media/kuruvi.a5fa9662d7d6e34661a9.png",
+    "static/media/Chat.png": "/static/media/Chat.0172aab3b3441a3f5f26.png",
+    "static/media/otp2.svg": "/static/media/otp2.c830ba68c55a73255a927cc5fd72df65.svg",
+    "static/media/otp1.svg": "/static/media/otp1.f9dae4eba354d7b9f96dc93a90629a5c.svg",
+    "static/media/chatcom.svg": "/static/media/chatcom.78a46ba677fa2fa2d1cba583622bbda1.svg",
+    "static/media/group.svg": "/static/media/group.fdcc2dd4d7c59ce119aa45e307043fde.svg",
+    "index.html": "/index.html",
+    "main.4e6b013e.css.map": "/static/css/main.4e6b013e.css.map",
+    "main.96bbe17d.js.map": "/static/js/main.96bbe17d.js.map",
+    "787.a7e40f91.chunk.js.map": "/static/js/787.a7e40f91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e6b013e.css",
+    "static/js/main.96bbe17d.js"
+  ]
+}
